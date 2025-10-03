@@ -35,28 +35,29 @@ h2 {
 .card:hover {
     opacity: 0.5;
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .card.one {
-    background-image: url('img/image-one.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('img/image-one.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card.two {
-    background-image: url('img/image-two.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('img/image-two.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card.three {
-    background-image: url('img/image-three.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('img/image-three.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .card.four {
-    background-image: url('img/image-four.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('img/image-four.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
